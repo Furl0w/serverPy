@@ -4,7 +4,7 @@ from celery import Celery
 import processing as proc
 import json
 
-SERVER_GO_URL = 'http://servergo:3030'
+SERVER_GO_URL = 'http://serverauth:3030'
 SERVER_DB_URL = 'http://serverdb:3031'
 
 app = Flask(__name__)
